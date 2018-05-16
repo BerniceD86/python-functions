@@ -55,6 +55,12 @@ print(product)
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
+def divide(num1, num2):
+    return num1/num2
+divide (box_1, box_2)
+
+quotient = divide (box_1, box_2)
+print(quotient)
 
 
 #6
