@@ -4,16 +4,22 @@
 
 #1 
 #Declare two variables box_1 and box_2 and assign any number value of your choosing. These two variables will be used to invoke functions #2 - #5.
+box_1=14
+box_2=32
 
-
-#2
+#2 BERNICE NEED TO WORK ON THIS.  I DONT UNDERSTAND WHY WE ADDED BOX_1, BOX_2
 #Function - add
 #Create a function named `add` which will take two parameters: `num_1` and `num_2`.
- 
+def add(num1,num2):
+    return num1 + num2
+add (box_1, box_2)
+
+
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
 
 #Print the sum variable to see your result.
-
+sum=add(box_1, box_2)
+print(sum)
 
 #3
 #Function - subtract
@@ -22,7 +28,12 @@
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
 #Print the difference variable to see your result.
+def subtract(num1, num2):
+    return num1 - num2
+subtract (box_1, box_2)
 
+difference= subtract (box_1, box_2)
+print(difference)
 
 #4
 # Function - multiply
